@@ -36,7 +36,7 @@ PROYECTO = {
         "gradientes conjugados y gradientes conjugados precondicionados"
     ),
     "institucion": "USIE — Consejo de la Magistratura (La Paz, Bolivia)",
-    "estudiante": os.environ.get("NOMBRE_ESTUDIANTE", "Nombre del estudiante"),
+    "estudiante": os.environ.get("NOMBRE_ESTUDIANTE", "Ronald Choque Sillo"),
     "carrera": "Informática",
     "facultad": "Facultad de Ciencias Puras y Naturales — UMSA",
     "mencion": "Desarrollo de Sistemas",
