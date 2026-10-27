@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title-a">
+  <title id="title-a">Delta Cholesky - Descomposición simétrica L L^T</title>
+  <!-- Factor L: Matriz triangular inferior (base estable y flanco izquierdo) -->
+  <path fill="#09090b" d="M 40,70 L 40,216 L 186,216 Z" />
+  <!-- Factor L^T: Matriz transpuesta superior (flanco superior y derecho) -->
+  <path fill="#09090b" d="M 70,40 L 216,40 L 216,186 Z" />
+  <!-- Núcleo diagonal: pivote de Cholesky exacto -->
+  <circle cx="128" cy="128" r="14" fill="#09090b" />
+</svg>

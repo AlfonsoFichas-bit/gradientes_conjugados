@@ -1,0 +1,14 @@
+/*
+ * Punto de entrada de Tailwind CSS v4.
+ *
+ * `source(none)` desactiva el escaneo automático del proyecto y deja solo las
+ * rutas declaradas abajo. Así el CSS generado no se contamina con cadenas de
+ * `docs/`, `numerics/` ni de los assets ya compilados en `static/build/`.
+ *
+ * El diseño propio vive en `app.css`, dentro de `@layer components`. Ese orden
+ * permite que las utilidades (`p-8`, `text-xl`, …) sobrescriban las clases
+ * semánticas del sitio sin recurrir a `!important`.
+ */
+@import "tailwindcss" source(none);
+
+@source "./**/*.{vue,ts}";
