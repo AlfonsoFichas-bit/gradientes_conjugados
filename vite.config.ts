@@ -12,7 +12,7 @@ export default defineConfig({
   build: {
     outDir: 'static/build',
     emptyOutDir: true,
-    manifest: true,
+    manifest: 'manifest.json',
     rollupOptions: {
       input: 'frontend/main.ts',
     },

@@ -20,6 +20,7 @@ static/build/
 *.log
 .env
 .env.*
+!.env.example
 
 # Node / Bun
 node_modules/
