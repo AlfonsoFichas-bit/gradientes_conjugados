@@ -15,8 +15,8 @@ htmlcov/
 
 # Django
 db.sqlite3
-staticfiles/
-static/build/
+# staticfiles/ - se incluyen para despliegue en PythonAnywhere
+# static/build/ - se incluyen para despliegue en PythonAnywhere
 *.log
 .env
 .env.*
